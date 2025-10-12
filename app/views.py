@@ -18,7 +18,7 @@ def Academics(request):
 
 
 def Admissions(request):
-    return render(request,'Admissions.html')
+    return render(request,'admissions.html')
 
 def Campus_facilities(request):
     return render(request,'campus-facilities.html')
