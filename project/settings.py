@@ -117,17 +117,20 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-STATIC_URL = 'static/'
+# URL for static files
+STATIC_URL = '/static/'
 
-
+# Local static files (for development)
 STATICFILES_DIRS = [
-    BASE_DIR / 'app' / 'templates' / 'assets',
+    BASE_DIR / 'app' / 'templates' / 'assets',  # adjust if your assets folder is elsewhere
 ]
 
+# Folder where collectstatic will copy static files for production
+STATIC_ROOT = BASE_DIR / 'static'
 
-STATIC_ROOT = BASE_DIR / "static"
-
+# Use WhiteNoise to serve static files in production with cache-busting
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
