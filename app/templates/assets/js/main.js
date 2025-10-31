@@ -1,6 +1,6 @@
 /**
-* Template Name: Montessori Training Institute
-* Template URL: https://bootstrapmade.com/Montessori Training Institute-bootstrap-school-template/
+* Template Name: Divvy Training Institute
+* Template URL: https://bootstrapmade.com/Divvy Training Institute-bootstrap-school-template/
 * Updated: Jul 28 2025 with Bootstrap v5.3.7
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
